@@ -1,4 +1,4 @@
-package tech.softwarekitchen.tvacs.tools.datasources
+package tech.softwarekitchen.tvacs.tools.datasources.type
 
 import tech.softwarekitchen.tsr.`object`.Object3D
 

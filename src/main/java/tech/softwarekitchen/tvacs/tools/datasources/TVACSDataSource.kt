@@ -1,5 +1,6 @@
 package tech.softwarekitchen.tvacs.tools.datasources
 
+import tech.softwarekitchen.tvacs.tools.datasources.type.DSTypeXYDataPoint
 import kotlin.reflect.KClass
 
 interface TVACSDataSource<T> {

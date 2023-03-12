@@ -27,6 +27,11 @@
             <version>${kotlin.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>tech.softwarekitchen.tsr</groupId>
+            <artifactId>TSR</artifactId>
+            <version>0.1</version>
+        </dependency>
     </dependencies>
 
     <build>
