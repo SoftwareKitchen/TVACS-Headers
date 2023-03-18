@@ -6,13 +6,14 @@
 
     <groupId>tech.software-kitchen.tvacs</groupId>
     <artifactId>TVACS-Headers</artifactId>
-    <version>0.2</version>
+    <version>0.3</version>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.version>1.7.22</kotlin.version>
+        <spring.boot.version>3.0.2</spring.boot.version>
     </properties>
 
     <dependencies>
@@ -31,6 +32,11 @@
             <groupId>tech.softwarekitchen.tsr</groupId>
             <artifactId>TSR</artifactId>
             <version>0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>${spring.boot.version}</version>
         </dependency>
     </dependencies>
 

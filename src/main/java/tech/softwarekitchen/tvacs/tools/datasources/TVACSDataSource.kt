@@ -23,8 +23,12 @@ class TVACSStreamIdentifier(path: String){
     val stream: String = path.split("->")[1]
 }
 
+data class TVACSDataSourceConfigurationMapEntry(val name: String, val displayName: String, val type: String, val default: Any)
+
 interface TVACSDataSourceFactory<T: TVACSDataSource>{
-    fun create(): T
+    fun create(configuration: Map<String, Any>): T
     fun getTypes(): Map<String, KClass<*>>
     fun getName(): String
+
+    fun getConfigurationEntries(): List<TVACSDataSourceConfigurationMapEntry>
 }
