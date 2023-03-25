@@ -6,7 +6,7 @@
 
     <groupId>tech.software-kitchen.tvacs</groupId>
     <artifactId>TVACS-Headers</artifactId>
-    <version>0.3</version>
+    <version>0.4</version>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
