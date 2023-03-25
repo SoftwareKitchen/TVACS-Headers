@@ -38,6 +38,11 @@
             <artifactId>spring-boot-starter</artifactId>
             <version>${spring.boot.version}</version>
         </dependency>
+        <dependency>
+            <groupId>tech.software-kitchen</groupId>
+            <artifactId>MovieKt</artifactId>
+            <version>0.3.0</version>
+        </dependency>
     </dependencies>
 
     <build>
